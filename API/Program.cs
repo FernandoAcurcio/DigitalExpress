@@ -1,13 +1,30 @@
+using API.Data;
+using Microsoft.EntityFrameworkCore;
+
 internal class Program
 {
     private static void Main(string[] args)
     {
+        /***
+         * API- receives http requests and responding to them
+         * Infrastructure - comunicate with the database, send queries and receive data from database
+         * Core - contain business identeties
+         */
+
+        // create a webserver
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.
+        builder.Services.AddControllers();
+
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
+        // connection to the database
+        builder.Services.AddDbContext<StoreContext>(opt =>
+        {
+            opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
+        });
 
         var app = builder.Build();
 
@@ -19,6 +36,9 @@ internal class Program
         }
 
         app.UseHttpsRedirection();
+
+        app.UseAuthorization();
+        app.MapControllers();
 
         var summaries = new[]
         {
@@ -44,7 +64,7 @@ internal class Program
     }
 }
 
-internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
+internal record WeatherForecast(DateOnly Date, int TemperatureC, string Summary)
 {
     public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 }
