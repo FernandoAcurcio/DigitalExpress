@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+API/DigitalExpress.db
+API/DigitalExpress.db-shm
+API/DigitalExpress.db-wal
