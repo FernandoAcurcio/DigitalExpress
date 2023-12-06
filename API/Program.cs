@@ -1,3 +1,4 @@
+using Core.Interfaces;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,8 +8,17 @@ internal class Program
     {
         /***
          * API- receives http requests and responding to them
+         * -> Controllers
+         * 
          * Infrastructure - comunicate with the database, send queries and receive data from database
-         * Core - contain business identeties
+         * -> Repository
+         * -> DbContext
+         * -> Services
+         * -> Comunicate with the database
+         * 
+         * Core - contain business intities
+         * -> Entities
+         * -> Interfaces
          */
 
         // create a webserver
@@ -25,6 +35,8 @@ internal class Program
         {
             opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
         });
+
+        builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
         var app = builder.Build();
 
