@@ -1,14 +1,24 @@
+using Core.Interfaces;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
 internal class Program
 {
-    private static void Main(string[] args)
+    private static async Task Main(string[] args)
     {
         /***
          * API- receives http requests and responding to them
+         * -> Controllers
+         * 
          * Infrastructure - comunicate with the database, send queries and receive data from database
-         * Core - contain business identeties
+         * -> Repository
+         * -> DbContext
+         * -> Services
+         * -> Comunicate with the database
+         * 
+         * Core - contain business intities
+         * -> Entities
+         * -> Interfaces
          */
 
         // create a webserver
@@ -26,6 +36,8 @@ internal class Program
             opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
         });
 
+        builder.Services.AddScoped<IProductRepository, ProductRepository>();
+
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
@@ -36,29 +48,26 @@ internal class Program
         }
 
         app.UseHttpsRedirection();
-
         app.UseAuthorization();
         app.MapControllers();
 
-        var summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
+        // if doesn't exist migrate our database
+        var scope = app.Services.CreateScope();
+        var services = scope.ServiceProvider;
+        var context = services.GetRequiredService<StoreContext>();
+        var logger = services.GetRequiredService<ILogger<Program>>();
 
-        app.MapGet("/weatherforecast", () =>
+        // will try to migrate our database
+        try
         {
-            var forecast = Enumerable.Range(1, 5).Select(index =>
-                new WeatherForecast
-                (
-                    DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                    Random.Shared.Next(-20, 55),
-                    summaries[Random.Shared.Next(summaries.Length)]
-                ))
-                .ToArray();
-            return forecast;
-        })
-        .WithName("GetWeatherForecast")
-        .WithOpenApi();
+            await context.Database.MigrateAsync();
+            await StoreContextSeed.SeedAsync(context);
+        }
+        catch (Exception ex)
+        {
+            // catch any exception that can occur 
+            logger.LogError(ex, "An error occured during migration");
+        }
 
         app.Run();
     }
