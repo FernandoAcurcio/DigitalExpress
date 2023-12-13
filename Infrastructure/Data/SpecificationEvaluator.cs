@@ -21,7 +21,7 @@ namespace Infrastructure.Data
             if (spec.Criteria != null)
             {
                 // Apply the criteria to the query using the Where method.
-                query = query.Where(spec.Criteria);
+                query = query.Where(spec.Criteria); // p => p.ProductTypeId == id
             }
 
             // Aggregate includes, if any, using LINQ's Aggregate method to apply them to the query.

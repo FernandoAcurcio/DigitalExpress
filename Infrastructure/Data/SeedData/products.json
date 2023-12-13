@@ -4,7 +4,7 @@
     "Description": "Experience the thrill with our cutting-edge Swift Shredder Board 3000. Perfect for conquering the slopes with speed and style.",
     "Price": 299.99,
     "PictureUrl": "images/products/sb-swift.png",
-    "ProductTypeId": 1,
+    "ProductTypeId": 1, 
     "ProductBrandId": 2
   },
   {
