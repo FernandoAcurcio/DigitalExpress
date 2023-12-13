@@ -37,6 +37,8 @@ internal class Program
         });
 
         builder.Services.AddScoped<IProductRepository, ProductRepository>();
+        builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+        builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
         var app = builder.Build();
 
@@ -47,6 +49,7 @@ internal class Program
             app.UseSwaggerUI();
         }
 
+        app.UseStaticFiles();
         app.UseHttpsRedirection();
         app.UseAuthorization();
         app.MapControllers();

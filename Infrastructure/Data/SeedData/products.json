@@ -1,146 +1,258 @@
 [
   {
-    "Name": "Angular Speedster Board 2000",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 200,
-    "PictureUrl": "images/products/sb-ang1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 1
-  },
-  {
-    "Name": "Green Angular Board 3000",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 150,
-    "PictureUrl": "images/products/sb-ang2.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 1
-  },
-  {
-    "Name": "Core Board Speed Rush 3",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "images/products/sb-core1.png",
-    "ProductTypeId": 1,
+    "Name": "Swift Shredder Board 3000",
+    "Description": "Experience the thrill with our cutting-edge Swift Shredder Board 3000. Perfect for conquering the slopes with speed and style.",
+    "Price": 299.99,
+    "PictureUrl": "images/products/sb-swift.png",
+    "ProductTypeId": 1, 
     "ProductBrandId": 2
   },
   {
-    "Name": "Net Core Super Board",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 300,
-    "PictureUrl": "images/products/sb-core2.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "React Board Super Whizzy Fast",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 250,
-    "PictureUrl": "images/products/sb-react1.png",
-    "ProductTypeId": 1,
+    "Name": "Cozy Alpine Hat",
+    "Description": "Keep warm in the mountains with our Cozy Alpine Hat. Stylish and comfortable, it's a must-have for chilly adventures.",
+    "Price": 39.99,
+    "PictureUrl": "images/products/hat-alpine.png",
+    "ProductTypeId": 2,
     "ProductBrandId": 4
   },
   {
-    "Name": "Typescript Entry Board",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 120,
-    "PictureUrl": "images/products/sb-ts1.png",
-    "ProductTypeId": 1,
+    "Name": "Powder Pro Boots",
+    "Description": "Conquer deep powder with ease in our Powder Pro Boots. Designed for comfort and performance in the toughest conditions.",
+    "Price": 179.99,
+    "PictureUrl": "images/products/boots-powder.png",
+    "ProductTypeId": 3,
     "ProductBrandId": 5
   },
   {
-    "Name": "Core Blue Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 10,
-    "PictureUrl": "images/products/hat-core1.png",
+    "Name": "Arctic Grip Gloves",
+    "Description": "Stay protected from the cold with our Arctic Grip Gloves. Designed with advanced grip technology for maximum control on icy slopes.",
+    "Price": 49.99,
+    "PictureUrl": "images/products/gloves-arctic.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Rapid Carver Board X",
+    "Description": "Carve through the snow like a pro with our Rapid Carver Board X. Unleash your skills on the slopes with this high-performance board.",
+    "Price": 349.99,
+    "PictureUrl": "images/products/sb-rapid.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Mountain Explorer Hat",
+    "Description": "Embark on your mountain journey with the stylish and durable Mountain Explorer Hat. Perfect for all your outdoor adventures.",
+    "Price": 29.99,
+    "PictureUrl": "images/products/hat-explorer.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Extreme Freeride Boots",
+    "Description": "Unleash your freeriding skills with our Extreme Freeride Boots. Engineered for maximum flexibility and control in challenging terrains.",
+    "Price": 199.99,
+    "PictureUrl": "images/products/boots-freeride.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Frostbite Fighter Gloves",
+    "Description": "Defeat frostbite with our Frostbite Fighter Gloves. Keep your hands warm and agile in the coldest conditions.",
+    "Price": 59.99,
+    "PictureUrl": "images/products/gloves-frostbite.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Gravity Crusher Board 4000",
+    "Description": "Crush the gravity with our Gravity Crusher Board 4000. Engineered for extreme performance and stability on steep slopes.",
+    "Price": 399.99,
+    "PictureUrl": "images/products/sb-gravity.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Adventure Seeker Hat",
+    "Description": "Be an adventure seeker with our versatile Adventure Seeker Hat. Perfect for any outdoor activity, rain or shine.",
+    "Price": 34.99,
+    "PictureUrl": "images/products/hat-adventure.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Backcountry Explorer Boots",
+    "Description": "Explore the backcountry with confidence in our Backcountry Explorer Boots. Designed for rugged terrains and long hikes.",
+    "Price": 219.99,
+    "PictureUrl": "images/products/boots-backcountry.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Blizzard Buster Gloves",
+    "Description": "Bust through the blizzard with our Blizzard Buster Gloves. Stay warm and maintain dexterity in extreme winter conditions.",
+    "Price": 69.99,
+    "PictureUrl": "images/products/gloves-blizzard.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Airborne Freestyle Board",
+    "Description": "Catch some serious air with our Airborne Freestyle Board. Designed for freestyle enthusiasts to express their creativity on the slopes.",
+    "Price": 329.99,
+    "PictureUrl": "images/products/sb-airborne.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Summit Explorer Hat",
+    "Description": "Conquer the summit with our Summit Explorer Hat. Stylish and functional, it's the perfect companion for reaching new heights.",
+    "Price": 44.99,
+    "PictureUrl": "images/products/hat-summit.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Ice Crusher Boots",
+    "Description": "Crush through icy terrains with our Ice Crusher Boots. Engineered for superior traction and stability on frozen surfaces.",
+    "Price": 189.99,
+    "PictureUrl": "images/products/boots-ice.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Polar Expedition Gloves",
+    "Description": "Embark on a polar expedition with our Polar Expedition Gloves. Stay warm and protected in the harshest Arctic conditions.",
+    "Price": 79.99,
+    "PictureUrl": "images/products/gloves-polar.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Stealth Shredder Board",
+    "Description": "Navigate the slopes with stealth using our Stealth Shredder Board. Designed for precision and control in all snow conditions.",
+    "Price": 369.99,
+    "PictureUrl": "images/products/sb-stealth.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Explorer's Sun Hat",
+    "Description": "Stay cool under the sun with our Explorer's Sun Hat. Ideal for sunny days in the mountains or on the beach.",
+    "Price": 24.99,
+    "PictureUrl": "images/products/hat-sun.png",
     "ProductTypeId": 2,
     "ProductBrandId": 2
   },
   {
-    "Name": "Green React Woolen Hat",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 8,
-    "PictureUrl": "images/products/hat-react1.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Purple React Woolen Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 15,
-    "PictureUrl": "images/products/hat-react2.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Blue Code Gloves",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 18,
-    "PictureUrl": "images/products/glove-code1.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 3
-  },
-  {
-    "Name": "Green Code Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 15,
-    "PictureUrl": "images/products/glove-code2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 3
-  },
-  {
-    "Name": "Purple React Gloves",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
-    "Price": 16,
-    "PictureUrl": "images/products/glove-react1.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Green React Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 14,
-    "PictureUrl": "images/products/glove-react2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Redis Red Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 250,
-    "PictureUrl": "images/products/boot-redis1.png",
+    "Name": "Alpine Ascent Boots",
+    "Description": "Ascend the alpine peaks with our Alpine Ascent Boots. Engineered for comfort and performance during high-altitude hikes.",
+    "Price": 209.99,
+    "PictureUrl": "images/products/boots-ascent.png",
     "ProductTypeId": 3,
     "ProductBrandId": 6
   },
   {
-    "Name": "Core Red Boots",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 189.99,
-    "PictureUrl": "images/products/boot-core2.png",
+    "Name": "Firestorm Gloves",
+    "Description": "Confront the firestorm with our Firestorm Gloves. Flame-resistant and insulated, they offer protection in extreme heat.",
+    "Price": 89.99,
+    "PictureUrl": "images/products/gloves-firestorm.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Backcountry Nomad Board",
+    "Description": "Become a backcountry nomad with our versatile Backcountry Nomad Board. Explore off-piste terrains with confidence.",
+    "Price": 349.99,
+    "PictureUrl": "images/products/sb-nomad.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Urban Explorer Hat",
+    "Description": "Navigate the urban jungle with style in our Urban Explorer Hat. City-ready and adventure-inspired, it's the perfect accessory.",
+    "Price": 29.99,
+    "PictureUrl": "images/products/hat-urban.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Winter Trekker Boots",
+    "Description": "Trek through winter landscapes with our Winter Trekker Boots. Insulated and waterproof, they keep your feet warm and dry.",
+    "Price": 179.99,
+    "PictureUrl": "images/products/boots-trekker.png",
     "ProductTypeId": 3,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Blaze Warrior Gloves",
+    "Description": "Embrace the blaze with our Blaze Warrior Gloves. Fire-resistant and durable, they provide protection in extreme heat.",
+    "Price": 79.99,
+    "PictureUrl": "images/products/gloves-blaze.png",
+    "ProductTypeId": 4,
     "ProductBrandId": 2
   },
   {
-    "Name": "Core Purple Boots",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Name": "Frosty Freestyle Board",
+    "Description": "Unleash your freestyle skills in frosty conditions with our Frosty Freestyle Board. Designed for tricks and flips on icy slopes.",
+    "Price": 319.99,
+    "PictureUrl": "images/products/sb-frosty.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Desert Explorer Hat",
+    "Description": "Venture into the desert with our Desert Explorer Hat. Lightweight and breathable, it's ideal for hot and sunny climates.",
+    "Price": 34.99,
+    "PictureUrl": "images/products/hat-desert.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Polar Plunge Boots",
+    "Description": "Plunge into polar regions with confidence in our Polar Plunge Boots. Designed for sub-zero temperatures and icy surfaces.",
     "Price": 199.99,
-    "PictureUrl": "images/products/boot-core1.png",
+    "PictureUrl": "images/products/boots-plunge.png",
     "ProductTypeId": 3,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Avalanche Avenger Gloves",
+    "Description": "Confront avalanches with our Avalanche Avenger Gloves. Engineered for protection and control in high-risk mountain conditions.",
+    "Price": 99.99,
+    "PictureUrl": "images/products/gloves-avenger.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Eagle Eye Board",
+    "Description": "Get an eagle-eye view of the slopes with our Eagle Eye Board. Designed for precision and control on any terrain.",
+    "Price": 379.99,
+    "PictureUrl": "images/products/sb-eagle.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Sunrise Explorer Hat",
+    "Description": "Witness the sunrise with our Sunrise Explorer Hat. Perfect for early morning adventures, providing sun protection and style.",
+    "Price": 39.99,
+    "PictureUrl": "images/products/hat-sunrise.png",
+    "ProductTypeId": 2,
     "ProductBrandId": 2
   },
   {
-    "Name": "Angular Purple Boots",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 150,
-    "PictureUrl": "images/products/boot-ang2.png",
+    "Name": "Icebreaker Boots",
+    "Description": "Break through icy conditions with our Icebreaker Boots. Engineered for maximum traction and warmth in freezing temperatures.",
+    "Price": 169.99,
+    "PictureUrl": "images/products/boots-icebreaker.png",
     "ProductTypeId": 3,
-    "ProductBrandId": 1
+    "ProductBrandId": 6
   },
   {
-    "Name": "Angular Blue Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "images/products/boot-ang1.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 1
+    "Name": "Inferno Defender Gloves",
+    "Description": "Defend against the inferno with our Inferno Defender Gloves. Fire-resistant and insulated, they provide protection in extreme heat.",
+    "Price": 89.99,
+    "PictureUrl": "images/products/gloves-inferno.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 3
   }
 ]
