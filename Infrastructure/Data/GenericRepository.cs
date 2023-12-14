@@ -44,6 +44,11 @@ namespace Infrastructure.Data
             return await ApplySpecification(specification).ToListAsync();
         }
 
+        public async Task<int> CountAsync(ISpecification<T> specification)
+        {
+            return await ApplySpecification(specification).CountAsync();
+        }
+
         // Applies a specification to a queryable set and returns the result.
         private IQueryable<T> ApplySpecification(ISpecification<T> specification)
         {

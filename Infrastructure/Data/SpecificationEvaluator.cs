@@ -23,6 +23,21 @@ namespace Infrastructure.Data
                 // Apply the criteria to the query using the Where method.
                 query = query.Where(spec.Criteria); // p => p.ProductTypeId == id
             }
+            
+            if (spec.OrderBy != null)
+            {
+                query = query.OrderBy(spec.OrderBy); 
+            }
+            
+            if (spec.OrderByDescending != null)
+            {
+                query = query.OrderByDescending(spec.OrderByDescending); 
+            }
+
+            if (spec.IsPagingEnabled)
+            {
+                query = query.Skip(spec.Skip).Take(spec.Take);
+            }
 
             // Aggregate includes, if any, using LINQ's Aggregate method to apply them to the query.
             query = spec.Includes.Aggregate(query, (current, include) => current.Include(include));
