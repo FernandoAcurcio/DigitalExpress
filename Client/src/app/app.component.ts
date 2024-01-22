@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { IProduct } from './Models/product';
-import { Pagination } from './Models/pagination';
+import { IProduct } from './shared/models/product';
+import { Pagination } from './shared/models/pagination';
 import { response } from 'express';
 
 @Component({
