@@ -7,10 +7,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { ShopModule } from './shop/shop.module';
+//import { ProductItemComponent } from './shop/product-item/product-item.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    //ProductItemComponent
   ],
   imports: [
     BrowserModule,

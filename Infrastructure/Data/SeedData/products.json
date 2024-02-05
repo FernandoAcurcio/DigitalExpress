@@ -19,7 +19,7 @@
     "Name": "Powder Pro Boots",
     "Description": "Conquer deep powder with ease in our Powder Pro Boots. Designed for comfort and performance in the toughest conditions.",
     "Price": 179.99,
-    "PictureUrl": "images/products/boots-powder.png",
+    "PictureUrl": "images/products/boot-powder.png",
     "ProductTypeId": 3,
     "ProductBrandId": 5
   },
@@ -27,7 +27,7 @@
     "Name": "Arctic Grip Gloves",
     "Description": "Stay protected from the cold with our Arctic Grip Gloves. Designed with advanced grip technology for maximum control on icy slopes.",
     "Price": 49.99,
-    "PictureUrl": "images/products/gloves-arctic.png",
+    "PictureUrl": "images/products/glove-arctic.png",
     "ProductTypeId": 4,
     "ProductBrandId": 3
   },
@@ -51,7 +51,7 @@
     "Name": "Extreme Freeride Boots",
     "Description": "Unleash your freeriding skills with our Extreme Freeride Boots. Engineered for maximum flexibility and control in challenging terrains.",
     "Price": 199.99,
-    "PictureUrl": "images/products/boots-freeride.png",
+    "PictureUrl": "images/products/boot-freeride.png",
     "ProductTypeId": 3,
     "ProductBrandId": 2
   },
@@ -59,7 +59,7 @@
     "Name": "Frostbite Fighter Gloves",
     "Description": "Defeat frostbite with our Frostbite Fighter Gloves. Keep your hands warm and agile in the coldest conditions.",
     "Price": 59.99,
-    "PictureUrl": "images/products/gloves-frostbite.png",
+    "PictureUrl": "images/products/glove-frostbite.png",
     "ProductTypeId": 4,
     "ProductBrandId": 4
   },
@@ -83,7 +83,7 @@
     "Name": "Backcountry Explorer Boots",
     "Description": "Explore the backcountry with confidence in our Backcountry Explorer Boots. Designed for rugged terrains and long hikes.",
     "Price": 219.99,
-    "PictureUrl": "images/products/boots-backcountry.png",
+    "PictureUrl": "images/products/boot-backcountry.png",
     "ProductTypeId": 3,
     "ProductBrandId": 1
   },
@@ -91,7 +91,7 @@
     "Name": "Blizzard Buster Gloves",
     "Description": "Bust through the blizzard with our Blizzard Buster Gloves. Stay warm and maintain dexterity in extreme winter conditions.",
     "Price": 69.99,
-    "PictureUrl": "images/products/gloves-blizzard.png",
+    "PictureUrl": "images/products/glove-blizzard.png",
     "ProductTypeId": 4,
     "ProductBrandId": 2
   },
@@ -115,7 +115,7 @@
     "Name": "Ice Crusher Boots",
     "Description": "Crush through icy terrains with our Ice Crusher Boots. Engineered for superior traction and stability on frozen surfaces.",
     "Price": 189.99,
-    "PictureUrl": "images/products/boots-ice.png",
+    "PictureUrl": "images/products/boot-ice.png",
     "ProductTypeId": 3,
     "ProductBrandId": 4
   },
@@ -123,7 +123,7 @@
     "Name": "Polar Expedition Gloves",
     "Description": "Embark on a polar expedition with our Polar Expedition Gloves. Stay warm and protected in the harshest Arctic conditions.",
     "Price": 79.99,
-    "PictureUrl": "images/products/gloves-polar.png",
+    "PictureUrl": "images/products/glove-polar.png",
     "ProductTypeId": 4,
     "ProductBrandId": 5
   },
@@ -147,7 +147,7 @@
     "Name": "Alpine Ascent Boots",
     "Description": "Ascend the alpine peaks with our Alpine Ascent Boots. Engineered for comfort and performance during high-altitude hikes.",
     "Price": 209.99,
-    "PictureUrl": "images/products/boots-ascent.png",
+    "PictureUrl": "images/products/boot-ascent.png",
     "ProductTypeId": 3,
     "ProductBrandId": 6
   },
@@ -155,7 +155,7 @@
     "Name": "Firestorm Gloves",
     "Description": "Confront the firestorm with our Firestorm Gloves. Flame-resistant and insulated, they offer protection in extreme heat.",
     "Price": 89.99,
-    "PictureUrl": "images/products/gloves-firestorm.png",
+    "PictureUrl": "images/products/glove-firestorm.png",
     "ProductTypeId": 4,
     "ProductBrandId": 3
   },
@@ -179,7 +179,7 @@
     "Name": "Winter Trekker Boots",
     "Description": "Trek through winter landscapes with our Winter Trekker Boots. Insulated and waterproof, they keep your feet warm and dry.",
     "Price": 179.99,
-    "PictureUrl": "images/products/boots-trekker.png",
+    "PictureUrl": "images/products/boot-trekker.png",
     "ProductTypeId": 3,
     "ProductBrandId": 1
   },
@@ -187,7 +187,7 @@
     "Name": "Blaze Warrior Gloves",
     "Description": "Embrace the blaze with our Blaze Warrior Gloves. Fire-resistant and durable, they provide protection in extreme heat.",
     "Price": 79.99,
-    "PictureUrl": "images/products/gloves-blaze.png",
+    "PictureUrl": "images/products/glove-blaze.png",
     "ProductTypeId": 4,
     "ProductBrandId": 2
   },
@@ -211,7 +211,7 @@
     "Name": "Polar Plunge Boots",
     "Description": "Plunge into polar regions with confidence in our Polar Plunge Boots. Designed for sub-zero temperatures and icy surfaces.",
     "Price": 199.99,
-    "PictureUrl": "images/products/boots-plunge.png",
+    "PictureUrl": "images/products/boot-plunge.png",
     "ProductTypeId": 3,
     "ProductBrandId": 4
   },
@@ -219,7 +219,7 @@
     "Name": "Avalanche Avenger Gloves",
     "Description": "Confront avalanches with our Avalanche Avenger Gloves. Engineered for protection and control in high-risk mountain conditions.",
     "Price": 99.99,
-    "PictureUrl": "images/products/gloves-avenger.png",
+    "PictureUrl": "images/products/glove-avenger.png",
     "ProductTypeId": 4,
     "ProductBrandId": 5
   },
@@ -243,7 +243,7 @@
     "Name": "Icebreaker Boots",
     "Description": "Break through icy conditions with our Icebreaker Boots. Engineered for maximum traction and warmth in freezing temperatures.",
     "Price": 169.99,
-    "PictureUrl": "images/products/boots-icebreaker.png",
+    "PictureUrl": "images/products/boot-icebreaker.png",
     "ProductTypeId": 3,
     "ProductBrandId": 6
   },
@@ -251,7 +251,7 @@
     "Name": "Inferno Defender Gloves",
     "Description": "Defend against the inferno with our Inferno Defender Gloves. Fire-resistant and insulated, they provide protection in extreme heat.",
     "Price": 89.99,
-    "PictureUrl": "images/products/gloves-inferno.png",
+    "PictureUrl": "images/products/glove-inferno.png",
     "ProductTypeId": 4,
     "ProductBrandId": 3
   }
