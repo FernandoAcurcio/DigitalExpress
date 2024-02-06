@@ -3,7 +3,7 @@
     public class ProductSpecParams
     {
         private const int MaxPageSize = 50;
-        private int _pageSize = 5;
+        private int _pageSize = 6;
         private string _search;
 
         public int? BrandId { get; set; }
